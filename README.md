@@ -1,3 +1,3 @@
 # Firebase Playground
 
-Open space to explore firebase
+Open space to explore _firebase_
