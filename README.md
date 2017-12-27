@@ -1,1 +1,3 @@
-Boilerplate React App
+#Firebase Playground
+
+Open space to explore firebase
