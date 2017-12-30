@@ -15,5 +15,9 @@ try {
 firebase.initializeApp(config);
 
 export var firebaseRef = firebase.database().ref();
+export var firebaseAuth = firebase.auth();
+export var googleProvider = new firebase.auth.GoogleAuthProvider();
+export var facebookProvider = new firebase.auth.FacebookAuthProvider();
+export var twitterProvider = new firebase.auth.TwitterAuthProvider();
 
 export default firebase;

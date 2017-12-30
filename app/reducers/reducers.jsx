@@ -9,3 +9,11 @@ export var itemsReducer = (state = [], action) => {
       return state;
   }
 }
+
+export var usersReducer = (state = undefined, action) => {
+  switch (action.type) {
+    case 'REGISTER_USER':
+    default:
+      return state;
+  }
+}
